@@ -40,7 +40,7 @@ async def start_(client: Client, message: Message):
 𝐆𝐫𝐨𝐮𝐩, 🌺 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 𝐇𝐢𝐠𝐡
 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🌷 ...
 
-📡 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: [𝐓𝐞𝐥𝐮𝐠𝐮 𝐜𝐨𝐝𝐞𝐫𝐬](https://t.me/Tc_pokemon) 💞...**""",
+📡 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: [𝐓𝐌𝐀 𝐀𝐝𝐝𝐚 ](https://t.me/Tmaadda) 💞...**""",
      reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -49,14 +49,14 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/Telugucodersupdates"),
+                        "📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/Tmaadda"),
 
                     InlineKeyboardButton(
-                        "𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/tgshadow_fighters"),
+                        "𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/telugu_fam_chatting_group"),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫シ︎𝐱𝐃 ❱ ✨", url=f"https://t.me/Tc_pokemon")
+                        text="🥀 ❰ 𝐎𝐰𝐧𝐞𝐫 ❱ ✨", url=f"https://t.me/aditya_nirman")
                 ]
            ]
         ),
@@ -78,18 +78,18 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 ❰ 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 ❱ ✨", url=f"https://t.me/tgshadow_fighters"),
+                        "🥀 ❰ 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 ❱ ✨", url=f"https://t.me/tmadiscuss"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/Telugucodersupdates"),
+                        "📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/tmaadda"),
 
                     InlineKeyboardButton(
-                        "𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/tgshadow_fighters"),
+                        "𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬", url=f"https://t.me/telugu_fam_chatting_group"),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="💥 ❰ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 ❱ 💞", url=f"https://t.me/Tc_pokemon")
+                        text="💥 ❰ 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 ❱ 💞", url=f"https://t.me/aditya_nirman")
                 ]
            ]
         ),
