@@ -132,7 +132,7 @@ async def play(_, message: Message):
     global useer
     await message.delete()
 
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐦𝐨𝐰𝐚...**")
 
     if not await is_served_chat(message.chat.id):
         await add_served_chat(message.chat.id)
@@ -144,7 +144,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "🥀 ❰ 𝐇𝐞𝐥𝐞𝐧 🕊️⃝‌🦋 𝐌𝐮𝐬𝐢𝐜𝕏❱ 🎸"
+        user.first_name = "🥀 𝓒𝓻𝓪𝔃𝓲𝓮 𝓜𝓾𝔃𝓲𝔁 🎸"
     usar = user
     wew = usar.id
     try:
@@ -168,12 +168,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [𓆩❛-𝐌𝐫᭄'𝐏𝐨𝐤𝐞𝐦𝐨𝐧 ❪😈❫ 𝐊𝐢𝐧𝐆-𝐱𝐃 °𓆪](https://t.me/Tc_pokemon) ✨ ...**")
+                        f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [𓆩ᴀᴅɪᴛʏᴀ ɴɪʀᴍᴀɴ °𓆪](https://t.me/aditya_nirman) ✨ ...**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [𓆩❛-𝐌𝐫᭄'𝐏𝐨𝐤𝐞𝐦𝐨𝐧 ❪😈❫ 𝐊𝐢𝐧𝐆-𝐱𝐃 °𓆪](https://t.me/Tc_pokemon) ✨ ...**")
+            f"**🎸 𝐏𝐥𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 ː [𓆩ᴀᴅɪᴛʏᴀ ɴɪʀᴍᴀɴ °𓆪](https://t.me/aditya_nirman) ✨ ...**")
         return
     
     audio = (
@@ -201,7 +201,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐖𝐨𝐫𝐥𝐝 💞",
-                            url=f"https://t.me/tgshadow_fighters")
+                            url=f"https://t.me/telugu_fam_chatting_group")
 
                 ]
             ]
@@ -240,7 +240,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐖𝐨𝐫𝐥𝐝 💞",
-                            url=f"https://t.me/tgshadow_fighters")
+                            url=f"https://t.me/telugu_fam_chatting_group")
 
                 ]
             ]
@@ -256,7 +256,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐖𝐨𝐫𝐥𝐝 💞",
-                            url=f"https://t.me/tgshadow_fighters")
+                            url=f"https://t.me/telugu_fam_chatting_group")
 
                 ]
             ]
@@ -310,7 +310,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐖𝐨𝐫𝐥𝐝 💞",
-                            url=f"https://t.me/tgshadow_fighters")
+                            url=f"https://t.me/telugu_fam_chatting_group")
 
                 ]
             ]
@@ -332,7 +332,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**🥀 ❰ 𝐇𝕖𝐥𝐞𝐧 ✘ ℝ𝕠𝐁𝐨𝐭❱ » 𝐍𝐨𝐰 🎸\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝🌷𝐀𝐭 » `{}` 💞 ...**".format(position),
+            caption="**𝓒𝓻𝓪𝔃𝓲𝓮 𝓜𝓾𝔃𝓲𝔁 🎸 𝐍𝐨𝐰 🎸\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝🌷𝐀𝐭 » `{}` 💞 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🥀 ❰ 𝐇𝕖𝐥𝐞𝐧 ✘ ℝ𝕠𝐁𝐨𝐭❱ » 𝐍𝐨𝐰 🎸\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐀𝐭 » {}**".format(message.chat.title),
+            caption="**𝓒𝓻𝓪𝔃𝓲𝓮 𝓜𝓾𝔃𝓲𝔁 🎸 » 𝐍𝐨𝐰 🎸\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐀𝐭 » {}**".format(message.chat.title),
            )
 
     os.remove("final.png")
